@@ -1,0 +1,108 @@
+@page { 
+        width: 21cm;
+        margin: 0 auto; 
+        background: #aaa;
+      }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+  
+}
+
+.page {
+  width: 16cm;
+  height: 29cm;
+  min-height: 10cm;
+  padding: 10mm 20mm 5mm 20mm;
+  margin: 5mm auto;
+  border: 1px #bbb solid;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.title
+{
+  font-family: "Tahoma";
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kode_surat
+{
+  font-family: "Tahoma";
+  font-size: 14px;
+  text-align: center;
+  margin-top: 3mm;
+}
+
+.kategori_penugasan
+{
+  font-family: "Tahoma";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5mm;
+}
+
+.data_mahasiswa
+{
+  
+  margin-top: 10mm;
+}
+table
+{
+  width: 100%;
+}
+th
+{
+  font-family: "Tahoma" ;
+  font-size: 12px;
+}
+td
+{
+  font-family: "Tahoma" ;
+  font-size: 12px;
+}
+
+p
+{
+  font-family: "Tahoma" ;
+  font-size: 12px;
+}
+
+
+.data_dosen
+{  
+  margin-top: 10mm;
+  margin-bottom: 15mm;
+}
+.table
+{
+  border: 1px #ddd solid;
+  border-collapse: collapse;
+}
+.th
+{
+  padding: 5px;
+  border: 1px #ddd solid;
+  border-collapse: collapse;
+}
+
+.td
+{
+  padding: 5px;
+  border: 1px #ddd solid;
+  border-collapse: collapse;
+}
+
+.footer
+{
+  width: 35%;
+  float: right;
+  margin-top: 15mm;
+  margin-bottom: 10mm;
+}
